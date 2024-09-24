@@ -2,7 +2,7 @@ public class ContohParameterMethod {
 
     public static int kalidua(int angka) {
         int hasil = angka * 2;
-        System.out.println("Hasil : " + hasil);
+        return hasil;
 
     }
 
