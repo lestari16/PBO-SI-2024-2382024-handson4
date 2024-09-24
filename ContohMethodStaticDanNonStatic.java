@@ -10,11 +10,11 @@ public class ContohMethodStaticDanNonStatic {
 
     public static void main(String[] args) {
         //memanggil methpd static langsung melalui nama kelas
-        double luaspersegi .ContohMethodStaticDanNonStatic. hitunganLuasPersegi(5);
+        double luaspersegi = ContohMethodStaticDanNonStatic.hitungLuasPersegi(5);
         System.out.println("Luas persegi dengan sisi 5; " + luaspersegi);
 
         //mmebuat objek dari kelas untuk memanggil method non static
-        ContohMethodStaticDanNonStatic objek * new ContohMethodStaticDanNonStatic();
-        objek tampilkanPesanSelamatDatang("john");
+        ContohMethodStaticDanNonStatic objek = new ContohMethodStaticDanNonStatic();
+        objek.tampilkanPesanSelamatDatang(" john");
     }
 }
